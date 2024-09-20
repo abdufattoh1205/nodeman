@@ -1,0 +1,78 @@
+<template>
+
+<form @submit.prevent="submitForm" class="w-screen ">
+        <div class="card m-auto mt-5" style="width:18rem;">
+          <div class="card-body">
+            <div class="mb-3">
+                <label class="form-label" for="">Employee Name</label>
+                <input v-model="fullfill.name" type="text" class="form-control" placeholder="Employee Name...">
+            </div>
+            <div class="mb-3">
+                <select v-model="fullfill.position" class="form-select" aria-label="Default select example">
+                    <option selected value="">Select the Position</option>
+                    <option value="office-manager">Office manager</option>
+                    <option value="accountant">Accountant</option>
+                    <option value="system-analyst">Systems Analyst</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Review</label>
+                    <textarea v-model="fullfill.review" placeholder="Review..." class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <div class="mb-3">
+                <select v-model="fullfill.salary" class="form-select" aria-label="Default select example">
+                    <option selected value="">Select the Salary</option>
+                    <option value="$100-$120/year">$100-$120/year</option>
+                    <option value="$120-$150/year">$120-$150/year</option>
+                    <option value="$150-$170/year">$150-$170/year</option>
+                    <option value="$170-$200/year">$170-$200/year</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <input  type="submit" class="btn btn-dark" value="Submit">
+            </div>
+          </div>
+        </div>
+    </form>
+
+</template>
+
+<script setup>
+
+import { reactive } from 'vue';
+import axios from 'axios';
+import { useToast } from 'vue-toastification';
+import router from '@/router';
+
+const fullfill = reactive({
+    name: '',
+    position: '',
+    review: '',
+    salary: '',
+})
+
+const toast = useToast()
+
+const submitForm = async () => {
+
+    const newfill = {
+        name: fullfill.name,
+        position: fullfill.position,
+        review: fullfill.review,
+        salary: fullfill.salary
+    }
+
+    try {
+        const response = await axios.post('http://localhost:3001/information', newfill)
+        router.push(`/information/${response.data.id}`)
+        toast.success('Job added successfully')
+    } catch (error) {
+        console.error(error)
+        toast.error('Job adding process failed')
+    }
+
+}
+
+
+
+</script>
