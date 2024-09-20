@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Ali",
+        "position": "HR",
+        "review": "Ali has consistently demonstrated exceptional performance during this review period. Her creativity and attention to detail have significantly contributed to the success of our recent marketing campaigns. Sarah takes initiative, works well under pressure, and is always willing to go the extra mile. She has also shown strong collaboration skills, effectively communicating with team members and other departments. Sarah's ability to analyze data and adapt strategies has led to a 15% increase in our social media engagement. Overall, she is an asset to the team and is on track for further growth within the company.",
+        "salary": "$80/year"
+    },
+
+    {
+        "name":"Dali",
+        "position": "Manager",
+        "review": "Dali has shown solid performance over the past six months. He has met his sales targets and has developed strong relationships with key clients. John’s ability to understand customer needs and provide tailored solutions has been impressive. However, there have been instances where follow-up on leads has been delayed, resulting in missed opportunities. Improving time management and prioritization could help in converting more leads into sales.",
+        "salary": "$120/year"
+    },
+
+    {
+        "name": "Abdufattoh",
+        "position": "CEO",
+        "review": "Abdufattoh has shown dedication to her role and has been consistently punctual and reliable. She has a strong understanding of our products and services, which helps her resolve customer queries efficiently. However, there have been some concerns regarding her communication style with customers. At times, interactions have been",
+        "salary":"∞  ∞  ∞"
+    },
+
+    {
+        "name": "Eminem",
+        "position": "PR manager",
+        "review": "Eminem has shown steady performance in his role as a Sales Associate. He consistently meets his sales targets and is well-liked by customers and colleagues. Michael’s strengths lie in his product knowledge and his ability to establish rapport with clients. However, there are areas where improvement is needed. Specifically, Michael could benefit from better time management and organization skills. There have been instances where follow-up with clients has been delayed, impacting customer satisfaction. Additionally, further development in upselling techniques could help boost his overall sales performance.",
+        "salary": "$130/year"
+    },
+
+    {
+        "name": "J.Cole",
+        "position": "Project Manager",
+        "review": "J.Cole has been instrumental in driving several key projects to completion during this review period. Her leadership and organizational skills are commendable, and she has a strong ability to motivate her team. However, there have been challenges in managing project timelines and communication with stakeholders. Some projects experienced delays due to unforeseen issues, and in a few cases, stakeholders were not kept fully informed of changes. While Emily is effective in managing her team, enhancing communication strategies and contingency planning will be crucial for smoother project execution in the future.",
+        "salary": "$150/year"
+    },
+
+    {
+      "name": "Cee",
+      "position": "Officer",
+      "review": "Cee has delivered exceptional results in his role as a Software Developer. He has consistently gone above and beyond in his work, showing a high level of technical expertise and problem-solving skills. Robert played a critical role in the successful launch of the new software platform, contributing to both the backend development and user interface design. His code is clean, efficient, and well-documented, which has been praised by his peers. Robert also regularly takes the initiative to mentor junior developers, helping to elevate the overall skill level of the team.",
+      "salary": "$180/year"  
+    },
+
+    {
+        "name": "Drake",
+        "position": "Software Developer",
+        "review": "Drake has consistently exceeded expectations in his role as a Senior Software Engineer. His technical skills are exceptional, and he has a proven ability to solve complex problems efficiently. John is a valuable asset to our team, and his contributions have significantly impacted our project's success.",
+        "salary": "$180/year"
+    }
+]
