@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ali",
+        "position": "HR",
+        "salary": "$80/year"
+    },
+
+    {
+        "name":"Dali",
+        "position": "Manager",
+        "salary": "$120/year"
+    },
+
+    {
+        "name": "Abdufattoh",
+        "position": "CEO",
+        "salary":"∞  ∞  ∞"
+    },
+
+    {
+        "name": "Joker",
+        "position": "PRmanager",
+        "salary": "$150/year"
+    }
+]
