@@ -1,0 +1,59 @@
+{
+  "guest": [
+    {
+      "id": "9044",
+      "guest": "I don't remember",
+      "status": "casual"
+    },
+    {
+      "id": "2ddd",
+      "guest": "Abdufattoh",
+      "status": "VIP"
+    },
+    {
+      "id": "5be8",
+      "guest": "J.Cole",
+      "status": "VIP"
+    },
+    {
+      "id": "e2fa",
+      "guest": "Joker",
+      "status": "casual"
+    },
+    {
+      "id": "13ce",
+      "guest": "Eminem",
+      "status": "casual"
+    },
+    {
+      "id": "b51b",
+      "guest": "taylor swift",
+      "status": "Black"
+    },
+    {
+      "id": "5388",
+      "guest": "Cristano",
+      "status": "casual"
+    },
+    {
+      "id": "0899",
+      "guest": "Kendrick Lamar",
+      "status": "casual"
+    },
+    {
+      "id": "82dd",
+      "guest": "cute",
+      "status": "VIP"
+    },
+    {
+      "id": "248f",
+      "guest": "KIM",
+      "status": "casual"
+    },
+    {
+      "id": "9b18",
+      "guest": "lil uzi",
+      "status": "Black"
+    }
+  ]
+}
